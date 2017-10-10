@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <style>
+            html { background: black; }
+            html, body {
+                border: 0;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+            }
+            #game {
+                position: fixed;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                border: 0;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="game"></canvas>
+        <script data-main="js/tcx" src="lib/require.js"></script>
+        <script>let dbgModules = require.s.contexts._.defined;</script>
+    </body>
+</html>

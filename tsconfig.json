@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "sourceMap": true,
+        "target": "es6",
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "outDir": "js"
+    }
+}
